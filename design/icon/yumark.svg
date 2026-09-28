@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- YuMarkEditor app icon: the Markdown mark [M↓] rewritten as [Yu↓] -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="100" x2="0" y2="924" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22426E"/>
+      <stop offset="1" stop-color="#0C1B33"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="512" cy="110" r="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="428" x2="0" y2="604" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F3CB78"/>
+      <stop offset="1" stop-color="#D39A38"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity=".30"/>
+    </filter>
+  </defs>
+
+  <!-- tile -->
+  <rect x="100" y="100" width="824" height="824" rx="186" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="100" y="100" width="824" height="824" rx="186" fill="url(#glow)"/>
+  <rect x="101" y="101" width="822" height="822" rx="185" fill="none" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="2"/>
+
+  <!-- the mark -->
+  <g transform="translate(-6 0)">
+    <rect x="212" y="346" width="612" height="332" rx="62" fill="none" stroke="#FFFFFF" stroke-width="34"/>
+  </g>
+  <!-- glyphs, optically centred inside the frame -->
+  <g transform="translate(-21 6)">
+    <g fill="none" stroke="#FFFFFF" stroke-width="54" stroke-linejoin="miter" stroke-miterlimit="10">
+      <!-- Y -->
+      <path d="M300 426 L368 520 L436 426"/>
+      <path d="M368 516 V600"/>
+      <!-- u -->
+      <path d="M496 470 V546 A54 54 0 0 0 604 546 V470"/>
+      <path d="M604 540 V600"/>
+    </g>
+    <!-- ↓ -->
+    <path d="M702 426 H756 V528 H788 L729 604 L670 528 H702 Z" fill="url(#gold)"/>
+  </g>
+</svg>

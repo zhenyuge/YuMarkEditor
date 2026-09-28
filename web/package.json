@@ -1,0 +1,47 @@
+{
+  "name": "yumarkeditor-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@codemirror/commands": "^6.11.1",
+    "@codemirror/lang-markdown": "^6.5.2",
+    "@codemirror/language": "^6.12.4",
+    "@codemirror/search": "^6.7.2",
+    "@codemirror/state": "^6.7.6",
+    "@codemirror/view": "^6.43.13",
+    "@lezer/highlight": "^1.2.4",
+    "dompurify": "^3.4.16",
+    "fflate": "^0.8.3",
+    "highlight.js": "^11.12.0",
+    "katex": "^0.18.9",
+    "linkify-it": "^6.1.0",
+    "markdown-it": "^15.0.2",
+    "mathml2omml": "^0.5.0",
+    "mermaid": "^12.0.0",
+    "prosemirror-commands": "^1.7.2",
+    "prosemirror-dropcursor": "^1.8.4",
+    "prosemirror-gapcursor": "^1.4.1",
+    "prosemirror-history": "^1.5.0",
+    "prosemirror-inputrules": "^1.5.1",
+    "prosemirror-keymap": "^1.2.3",
+    "prosemirror-model": "^1.25.12",
+    "prosemirror-schema-list": "^1.5.1",
+    "prosemirror-search": "^1.1.1",
+    "prosemirror-state": "^1.4.4",
+    "prosemirror-tables": "^1.8.5",
+    "prosemirror-transform": "^1.12.2",
+    "prosemirror-view": "^1.42.6"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^14.2.0",
+    "commonmark-spec": "^0.31.2",
+    "esbuild": "^0.28.2",
+    "puppeteer-core": "^25.12.0",
+    "typescript": "^7.0.2"
+  }
+}

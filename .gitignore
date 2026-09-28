@@ -1,0 +1,6 @@
+node_modules/
+web/dist/
+web/test/.out/
+web/meta.json
+build/
+.DS_Store
